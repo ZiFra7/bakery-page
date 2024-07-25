@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #ffe2b0;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin-right: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+li{
+    text-align: center;
+}
+
+.section__about {
+    height: 640px;
+    background: url(../img/01-ph.jpg) center/cover no-repeat;
+    margin-bottom: 20px;
+}
+
+.section__photo {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%); 
+    position: relative;
+    top: 55%;
+    left: 51%;
+    padding-top: 15px;
+}
+
+.section__border {
+    height: 160px;
+    width: 390px;
+    border: 1px solid black;
+    padding-left: 28px;
+    padding-top: 17px;
+    margin: 0 auto;
+}
+
+.section__header {
+    font-size: 36px;
+    margin-bottom: 9px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+}
+
+.section__text {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.section__description {
+    margin-bottom: 20px;
+}
+
+.section__description-icons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section__description-icons img {
+    margin-right: 76px;
+}
+
+.section__description-icons img:last-child {
+    margin-right: 0px;
+}
+
+
+.section__description-text__title {
+    font-size: 96px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+}
+
+.section__description-text__title__span {
+    color: #f15b40
+}
+
+.section__description-textpar {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.section__map {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section__map-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+}
+
+.line {
+    border-top: 1px solid #999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 90px;
+}
